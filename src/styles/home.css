@@ -1,0 +1,161 @@
+.feature__subtitle {
+  color: #df2020;
+}
+
+.feature__title span {
+  color: #df2020;
+}
+
+.feature__text {
+  color: #777;
+}
+
+.feautre__item {
+  color: #777;
+}
+
+.food__cartegory {
+  background: #df2020;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+
+.food__cartegory button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: #fff;
+}
+
+.food__cartegory button img {
+  width: 20px;
+  height: 20px;
+}
+
+.foodBtnActive {
+  background: #fff !important;
+  border-radius: 5px;
+  color: #df2020 !important;
+}
+
+.tasty__treat-title span {
+  color: #df2020;
+}
+
+.tasty__treat-desc {
+  color: #777;
+  line-height: 28px;
+}
+
+.chose__us-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.chose__us-title i {
+  font-weight: 500 !important;
+  color: #df2020;
+}
+
+.chose__us-desc {
+  color: #777;
+}
+
+.testimonial__subtitle {
+  color: #df2020;
+}
+
+.testimonial__title span {
+  color: #df2020;
+}
+
+.testimonial__desc {
+  color: #777;
+  line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .hero__content h5 {
+    font-size: 1rem;
+  }
+
+  .hero__content p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+
+  .hero__title {
+    font-size: 2.6rem;
+    line-height: 40px;
+  }
+
+  .hero__btns button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .food__cartegory {
+    padding: 15px;
+  }
+  .food__cartegory button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+  .feature__subtitle {
+    font-size: 1rem;
+  }
+  .feature__text {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .feautre__item h5 {
+    font-size: 0.7rem;
+  }
+  .feautre__item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .tasty__treat-desc {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .chose__us-title {
+    font-size: 0.8rem;
+  }
+  .chose__us-desc {
+    font-size: 0.7rem;
+  }
+  .testimonial__subtitle {
+    font-size: 1rem;
+  }
+  .testimonial__desc {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    text-align: center;
+  }
+
+  .hero__btns {
+    justify-content: center;
+  }
+
+  .hero__service {
+    justify-content: center;
+  }
+  .hero__service p {
+    font-size: 0.7rem !important;
+  }
+  .why__choise-us {
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .hero__service p {
+    font-size: 0.7rem !important;
+  }
+}

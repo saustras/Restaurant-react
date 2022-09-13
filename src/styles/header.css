@@ -1,0 +1,146 @@
+.header {
+  width: 100%;
+  height: 90px;
+  line-height: 80px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: calc(100% - 60%);
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.logo h5 {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #212245;
+  margin-top: -22px;
+  margin-bottom: 0;
+}
+
+.menu a {
+  font-weight: 600;
+  font-style: 1rem;
+  color: #212245;
+}
+
+.active__menu {
+  color: #df2020 !important;
+}
+
+.menu a:hover {
+  color: #df2020;
+  transition: 0.3s;
+}
+
+.cart__icon i,
+.user i,
+.mobile__menu i {
+  font-size: 1.3rem;
+  color: #212245;
+  cursor: pointer;
+}
+
+.cart__icon {
+  position: relative;
+}
+.cart__badge {
+  position: absolute;
+  top: 20px;
+  right: -10px;
+  background-color: #df2020;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__menu {
+  font-weight: 600;
+  display: none;
+}
+
+.header__shrink {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 99999;
+  box-shadow: 5px 5px 15px -5px #fde4e4;
+}
+
+@media only screen and (max-width: 998px) {
+  .logo img {
+    width: calc(100% - 50%);
+  }
+  .logo h5 {
+    font-size: 0.8rem;
+    margin-top: -15px;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    z-index: 999;
+    display: none;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    line-height: 20px;
+  }
+  .menu a {
+    font-size: 0.9rem;
+    padding: 10px;
+    color: #212245;
+  }
+  .mobile__menu {
+    display: block;
+  }
+  .cart__icon i,
+  .user i,
+  .mobile__menu i {
+    font-size: 1rem;
+  }
+
+  .show__menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+  }
+  .logo img {
+    width: calc(100% - 60%);
+  }
+
+  .logo h5 {
+    margin-top: -20px;
+  }
+}
